@@ -1,0 +1,26 @@
+name: my portfolio
+entities:
+  Project:
+    properties:
+      - title
+      - description
+      - role
+      - { name: date, type: date }
+      - { name: url, type: link }
+      - {
+          name: photo,
+          type: image,
+          options:
+            {
+              sizes:
+                {
+                  small: { height: 403, width: 805 },
+                  large: { height: 806, width: 1610 },
+                },
+            },
+        }
+  Contacts:
+    properties:
+      - name
+      - email
+      - { name: message, type: text }
