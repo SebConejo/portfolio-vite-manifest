@@ -13,10 +13,10 @@ $ npm install
 ## Serve the front end
 
 ```bash
-$ npm run dev
+$ npm run dev:front
 ```
 
-## Running the app
+## Serve the Manifest backend
 
 To run the app in the development mode:
 
@@ -35,6 +35,12 @@ Seeds some dummy data for your entities:
 
 ```bash
 npm run manifest:seed
+```
+
+## Serve the whole app
+
+```bash
+$ npm run dev
 ```
 
 ## Community & Resources
