@@ -17,7 +17,7 @@
     "@mnfst/sdk": "^1.0.6",
     "framer-motion": "^11.0.8",
     "lucide-react": "^0.344.0",
-    "manifest": "^4.5.0",
+    "manifest": "^4.6.2",
     "react": "^18.3.1",
     "react-dom": "^18.3.1",
     "react-intersection-observer": "^9.8.1"
