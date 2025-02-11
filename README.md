@@ -1,4 +1,5 @@
 # Manifest Starter Kit: Portfolio
+![vue-manifest](https://github.com/user-attachments/assets/426d1f1f-5e2f-40b4-8950-46a95ddabd32)
 
 ## Description
 
