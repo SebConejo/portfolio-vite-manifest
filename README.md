@@ -49,3 +49,8 @@ $ npm run dev
 - [Docs](https://manifest.build/docs) - Get started with Manifest
 - [Discord](https://discord.gg/FepAked3W7) - Come chat with the community
 - [Github](https://github.com/mnfst/manifest/issues) - Report bugs and share ideas to improve the product.
+
+## Screenshot
+![pfl](https://github.com/user-attachments/assets/4da41264-31e5-4d5b-b95e-3da860efd0b9)
+
+
