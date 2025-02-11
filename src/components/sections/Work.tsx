@@ -57,7 +57,7 @@ export function Work() {
                   <div className="space-y-6">
                     <h3 className="text-3xl font-bold">{project.title}</h3>
                     <p className="text-gray-600 text-lg leading-relaxed">
-                      {project.description}
+                      {project.excerpt}
                     </p>
 
                     <div className="flex flex-col gap-4">
