@@ -1,6 +1,7 @@
 import Manifest from '@mnfst/sdk'
 import { ExternalLink } from 'lucide-react'
 import { useEffect, useState } from 'react'
+import { Link } from 'react-router-dom'
 import { Project } from '../../types/types'
 import { FadeIn } from '../animations/FadeIn'
 
@@ -43,11 +44,13 @@ export function Work() {
                     }`}
                   >
                     <div className="relative aspect-[16/9] overflow-hidden rounded-xl">
-                      <img
-                        src={project.photo.large || project.photo.small}
-                        alt={project.title}
-                        className="w-full h-full object-cover bg-slate-100 transition-transform duration-700 group-hover:scale-105"
-                      />
+                      <Link to={`/project/${index}`} className="block">
+                        <img
+                          src={project.photo.large || project.photo.small}
+                          alt={project.title}
+                          className="w-full h-full object-cover bg-slate-100 transition-transform duration-700 group-hover:scale-105"
+                        />
+                      </Link>
                     </div>
                   </div>
 

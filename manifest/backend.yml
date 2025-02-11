@@ -19,6 +19,7 @@ entities:
                 },
             },
         }
+      - { name: description, type: richText }
   Contacts:
     properties:
       - name

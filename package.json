@@ -6,7 +6,6 @@
   "scripts": {
     "dev:front": "vite",
     "build": "vite build",
-    "start": "node node_modules/manifest/dist/manifest/src/main.js",
     "lint": "eslint .",
     "preview": "vite preview",
     "manifest": "node node_modules/manifest/scripts/watch/watch.js",
@@ -14,13 +13,15 @@
     "dev": "concurrently \"npm run dev:front\" \"npm run manifest\""
   },
   "dependencies": {
-    "@mnfst/sdk": "^1.0.6",
-    "framer-motion": "^11.0.8",
+    "@mnfst/sdk": "^1.1.0",
+    "@tailwindcss/typography": "^0.5.16",
+    "framer-motion": "^12.0.11",
     "lucide-react": "^0.344.0",
     "manifest": "^4.6.2",
     "react": "^18.3.1",
     "react-dom": "^18.3.1",
-    "react-intersection-observer": "^9.8.1"
+    "react-intersection-observer": "^9.15.1",
+    "react-router-dom": "^6.22.3"
   },
   "devDependencies": {
     "@eslint/js": "^9.9.1",
