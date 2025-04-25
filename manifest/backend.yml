@@ -20,8 +20,17 @@ entities:
             },
         }
       - { name: description, type: richText }
+
+    policies:
+      read:
+        - { access: public }
+
   Contacts:
     properties:
       - name
       - email
       - { name: message, type: text }
+
+    policies:
+      create:
+        - { access: public }
